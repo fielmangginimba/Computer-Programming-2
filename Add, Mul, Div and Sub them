@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+int main()
+
+{
+
+    int num1, num2, res;
+
+    printf("Input any 2 integer: ");
+
+    scanf("%d%d", &num1, &num2);
+
+    res = num1+num2;
+
+    printf("\nADD = %d", res);
+
+    res = num1*num2;
+
+    printf("\nMUL = %d", res);
+
+    res = num1/num2;
+
+    printf("\nDIV = %d", res);
+
+    res = num1-num2;
+
+    printf("\nSUB = %d", res);
+
+    getch();
+
+    return (1);
+
+}
